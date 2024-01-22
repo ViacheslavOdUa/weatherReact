@@ -1,0 +1,17 @@
+@import '../../../Variables.scss';
+
+.highlights{
+    flex-grow: 1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    &__title{
+        margin-bottom: 40px;
+    }
+    &__box{
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
